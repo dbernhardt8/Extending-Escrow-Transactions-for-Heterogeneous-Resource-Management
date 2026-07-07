@@ -1,0 +1,26 @@
+{
+  "cancellation": {
+    "flight_identifier_type": "context_identifier",
+    "flight_identifier_value": "LH 500 FRA-JFK",
+    "reason": "Aircraft maintenance issue detected during pre-flight inspection",
+    "metadata": {
+      "cancelled_by": "Operations Manager",
+      "cancelled_by_user_id": "OPS-123",
+      "cancellation_code": "TECH-MAINTENANCE",
+      "estimated_resolution_time": null,
+      "alternative_flights_offered": true,
+      "refund_policy": "full_refund",
+      "compensation_eligible": true,
+      "notification_channels": ["email", "sms", "push"],
+      "priority": "immediate"
+    }
+  },
+  "notes": [
+    "This JSON defines a flight cancellation request",
+    "flight_identifier_type can be: 'context_identifier' or 'context_id'",
+    "All existing reservations (reserved, confirmed, checked-in, boarded) will be cancelled",
+    "Capacity counters will be updated automatically",
+    "TODO markers indicate where notification logic should be implemented"
+  ]
+}
+

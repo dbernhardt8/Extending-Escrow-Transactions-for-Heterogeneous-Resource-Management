@@ -1,0 +1,173 @@
+{
+  "asset": {
+    "name": "Boeing 787-9",
+    "description": "Dreamliner - D-ABCE",
+    "status": "active",
+    "metadata": {
+      "registration": "D-ABCE",
+      "manufacturer": "Boeing",
+      "model": "787-9",
+      "year_manufactured": 2024,
+      "configuration": "premium_layout",
+      "range_km": 14140,
+      "max_speed_kmh": 954
+    }
+  },
+  "capacities": [
+    {
+      "category_name": "First Class",
+      "quantity": 8,
+      "metadata": {
+        "layout": "1-1-1",
+        "pitch_inches": 82,
+        "width_inches": 21,
+        "rows": "1-2"
+      }
+    },
+    {
+      "category_name": "Business Class",
+      "quantity": 36,
+      "metadata": {
+        "layout": "1-2-1",
+        "pitch_inches": 78,
+        "width_inches": 20,
+        "rows": "10-18"
+      }
+    },
+    {
+      "category_name": "Premium Economy",
+      "quantity": 21,
+      "metadata": {
+        "layout": "2-3-2",
+        "pitch_inches": 38,
+        "width_inches": 18,
+        "rows": "20-22"
+      }
+    },
+    {
+      "category_name": "Economy Class",
+      "quantity": 180,
+      "metadata": {
+        "layout": "3-3-3",
+        "pitch_inches": 32,
+        "width_inches": 17,
+        "rows": "30-49"
+      }
+    }
+  ],
+  "instances": [
+    {
+      "category_name": "First Class",
+      "seats": [
+        {"identifier": "1A", "status": "available", "metadata": {"type": "window", "row": 1, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "1K", "status": "available", "metadata": {"type": "window", "row": 1, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "2A", "status": "available", "metadata": {"type": "window", "row": 2, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "2E", "status": "available", "metadata": {"type": "center", "row": 2, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "2F", "status": "available", "metadata": {"type": "center", "row": 2, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "2K", "status": "available", "metadata": {"type": "window", "row": 2, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "3A", "status": "available", "metadata": {"type": "window", "row": 3, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "3K", "status": "available", "metadata": {"type": "window", "row": 3, "features": ["lie-flat", "direct_aisle_access"]}}
+      ]
+    },
+    {
+      "category_name": "Business Class",
+      "seats": [
+        {"identifier": "10A", "status": "available", "metadata": {"type": "window", "row": 10, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "10D", "status": "available", "metadata": {"type": "center", "row": 10, "features": ["lie-flat"]}},
+        {"identifier": "10G", "status": "available", "metadata": {"type": "center", "row": 10, "features": ["lie-flat"]}},
+        {"identifier": "10K", "status": "available", "metadata": {"type": "window", "row": 10, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "11A", "status": "available", "metadata": {"type": "window", "row": 11, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "11D", "status": "available", "metadata": {"type": "center", "row": 11, "features": ["lie-flat"]}},
+        {"identifier": "11G", "status": "available", "metadata": {"type": "center", "row": 11, "features": ["lie-flat"]}},
+        {"identifier": "11K", "status": "available", "metadata": {"type": "window", "row": 11, "features": ["lie-flat", "direct_aisle_access"]}},
+        {"identifier": "12A", "status": "available", "metadata": {"type": "window", "row": 12}},
+        {"identifier": "12D", "status": "available", "metadata": {"type": "center", "row": 12}},
+        {"identifier": "12G", "status": "available", "metadata": {"type": "center", "row": 12}},
+        {"identifier": "12K", "status": "available", "metadata": {"type": "window", "row": 12}},
+        {"identifier": "13A", "status": "available", "metadata": {"type": "window", "row": 13}},
+        {"identifier": "13D", "status": "available", "metadata": {"type": "center", "row": 13}},
+        {"identifier": "13G", "status": "available", "metadata": {"type": "center", "row": 13}},
+        {"identifier": "13K", "status": "available", "metadata": {"type": "window", "row": 13}},
+        {"identifier": "14A", "status": "available", "metadata": {"type": "window", "row": 14}},
+        {"identifier": "14D", "status": "available", "metadata": {"type": "center", "row": 14}},
+        {"identifier": "14G", "status": "available", "metadata": {"type": "center", "row": 14}},
+        {"identifier": "14K", "status": "available", "metadata": {"type": "window", "row": 14}},
+        {"identifier": "15A", "status": "available", "metadata": {"type": "window", "row": 15}},
+        {"identifier": "15D", "status": "available", "metadata": {"type": "center", "row": 15}},
+        {"identifier": "15G", "status": "available", "metadata": {"type": "center", "row": 15}},
+        {"identifier": "15K", "status": "available", "metadata": {"type": "window", "row": 15}},
+        {"identifier": "16A", "status": "available", "metadata": {"type": "window", "row": 16}},
+        {"identifier": "16D", "status": "available", "metadata": {"type": "center", "row": 16}},
+        {"identifier": "16G", "status": "available", "metadata": {"type": "center", "row": 16}},
+        {"identifier": "16K", "status": "available", "metadata": {"type": "window", "row": 16}},
+        {"identifier": "17A", "status": "available", "metadata": {"type": "window", "row": 17}},
+        {"identifier": "17D", "status": "available", "metadata": {"type": "center", "row": 17}},
+        {"identifier": "17G", "status": "available", "metadata": {"type": "center", "row": 17}},
+        {"identifier": "17K", "status": "available", "metadata": {"type": "window", "row": 17}},
+        {"identifier": "18A", "status": "available", "metadata": {"type": "window", "row": 18}},
+        {"identifier": "18D", "status": "available", "metadata": {"type": "center", "row": 18}},
+        {"identifier": "18G", "status": "available", "metadata": {"type": "center", "row": 18}},
+        {"identifier": "18K", "status": "available", "metadata": {"type": "window", "row": 18}}
+      ]
+    },
+    {
+      "category_name": "Premium Economy",
+      "seats": [
+        {"identifier": "20A", "status": "available", "metadata": {"type": "window", "row": 20}},
+        {"identifier": "20B", "status": "available", "metadata": {"type": "middle", "row": 20}},
+        {"identifier": "20D", "status": "available", "metadata": {"type": "aisle", "row": 20}},
+        {"identifier": "20E", "status": "available", "metadata": {"type": "center", "row": 20}},
+        {"identifier": "20G", "status": "available", "metadata": {"type": "aisle", "row": 20}},
+        {"identifier": "20H", "status": "available", "metadata": {"type": "middle", "row": 20}},
+        {"identifier": "20K", "status": "available", "metadata": {"type": "window", "row": 20}},
+        {"identifier": "21A", "status": "available", "metadata": {"type": "window", "row": 21}},
+        {"identifier": "21B", "status": "available", "metadata": {"type": "middle", "row": 21}},
+        {"identifier": "21D", "status": "available", "metadata": {"type": "aisle", "row": 21}},
+        {"identifier": "21E", "status": "available", "metadata": {"type": "center", "row": 21}},
+        {"identifier": "21G", "status": "available", "metadata": {"type": "aisle", "row": 21}},
+        {"identifier": "21H", "status": "available", "metadata": {"type": "middle", "row": 21}},
+        {"identifier": "21K", "status": "available", "metadata": {"type": "window", "row": 21}},
+        {"identifier": "22A", "status": "available", "metadata": {"type": "window", "row": 22}},
+        {"identifier": "22B", "status": "available", "metadata": {"type": "middle", "row": 22}},
+        {"identifier": "22D", "status": "available", "metadata": {"type": "aisle", "row": 22}},
+        {"identifier": "22E", "status": "available", "metadata": {"type": "center", "row": 22}},
+        {"identifier": "22G", "status": "available", "metadata": {"type": "aisle", "row": 22}},
+        {"identifier": "22H", "status": "available", "metadata": {"type": "middle", "row": 22}},
+        {"identifier": "22K", "status": "available", "metadata": {"type": "window", "row": 22}}
+      ]
+    },
+    {
+      "category_name": "Economy Class",
+      "seats": [
+        {"identifier": "30A", "status": "available", "metadata": {"type": "window", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30B", "status": "available", "metadata": {"type": "middle", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30C", "status": "available", "metadata": {"type": "aisle", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30D", "status": "available", "metadata": {"type": "aisle", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30E", "status": "available", "metadata": {"type": "middle", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30F", "status": "available", "metadata": {"type": "middle", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30G", "status": "available", "metadata": {"type": "aisle", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30H", "status": "available", "metadata": {"type": "middle", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "30K", "status": "available", "metadata": {"type": "window", "row": 30, "features": ["bulkhead", "extra_legroom"]}},
+        {"identifier": "31A", "status": "available", "metadata": {"type": "window", "row": 31}},
+        {"identifier": "31B", "status": "available", "metadata": {"type": "middle", "row": 31}},
+        {"identifier": "31C", "status": "available", "metadata": {"type": "aisle", "row": 31}},
+        {"identifier": "31D", "status": "available", "metadata": {"type": "aisle", "row": 31}},
+        {"identifier": "31E", "status": "available", "metadata": {"type": "middle", "row": 31}},
+        {"identifier": "31F", "status": "available", "metadata": {"type": "middle", "row": 31}},
+        {"identifier": "31G", "status": "available", "metadata": {"type": "aisle", "row": 31}},
+        {"identifier": "31H", "status": "available", "metadata": {"type": "middle", "row": 31}},
+        {"identifier": "31K", "status": "available", "metadata": {"type": "window", "row": 31}},
+        {"identifier": "32A", "status": "unavailable", "metadata": {"type": "window", "row": 32, "reason": "maintenance", "issue": "seat_mechanism", "until": "2025-12-15"}},
+        {"identifier": "32B", "status": "available", "metadata": {"type": "middle", "row": 32}},
+        {"identifier": "32C", "status": "available", "metadata": {"type": "aisle", "row": 32}}
+      ],
+      "note": "Only first 21 seats defined for Economy as example. In production, all 180 would be defined."
+    }
+  ],
+  "validation": {
+    "total_seats_expected": 245,
+    "total_seats_defined": 86,
+    "note": "For testing purposes, not all seats are defined. Production would have all seats."
+  }
+}
+

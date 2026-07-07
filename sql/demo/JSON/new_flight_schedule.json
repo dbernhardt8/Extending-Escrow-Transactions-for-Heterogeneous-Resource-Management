@@ -1,0 +1,48 @@
+{
+  "flight": {
+    "context_identifier": "LH 500 FRA-JFK",
+    "asset_identifier": {
+      "type": "name",
+      "value": "Boeing 787-9"
+    },
+    "schedule": {
+      "departure": {
+        "date": "2025-12-15",
+        "time": "10:00",
+        "airport": "FRA",
+        "timezone": "CET"
+      },
+      "arrival": {
+        "date": "2025-12-15",
+        "time": "13:30",
+        "airport": "JFK",
+        "timezone": "EST"
+      }
+    },
+    "metadata": {
+      "route": "FRA-JFK",
+      "flight_number": "LH500",
+      "aircraft_registration": "D-ABCE",
+      "departure_gate": "A12",
+      "departure_terminal": "1",
+      "arrival_gate": "4",
+      "arrival_terminal": "1",
+      "crew_id": "CR-7845",
+      "captain": "John Smith",
+      "first_officer": "Jane Doe",
+      "cabin_crew_count": 12,
+      "service_type": "full_service",
+      "meal_service": true,
+      "wifi_available": true,
+      "entertainment_system": "IFE_Premium"
+    }
+  },
+  "notes": [
+    "This JSON defines a single flight",
+    "Asset can be identified by name, description, or id",
+    "Dates are in ISO format (YYYY-MM-DD)",
+    "Times are in 24-hour format (HH:MM)",
+    "The procedure will automatically create CapacitySnapshot for all seat categories"
+  ]
+}
+
